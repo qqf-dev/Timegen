@@ -6,7 +6,7 @@ from PySide2.QtUiTools import QUiLoader
 
 class MainWindow(QMainWindow):
     def __init__(self):
-        self.ui = QUiLoader().load('mainwindow.ui')
+        self.ui = QUiLoader().load('UI/mainwindow.ui')
         QMainWindow.__init__(self)
 
 
